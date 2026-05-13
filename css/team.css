@@ -1,0 +1,50 @@
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 0px;
+}
+
+.team h2 {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.product-designer,
+.frontend-developer,
+.marketing,
+.ui-designer {
+  background-color: #ffffff;
+}
+
+.team h3,
+.team p {
+  text-align: center;
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.team-card li {
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+}
+
+.team-card h3 {
+  margin-bottom: 8px;
+}
+
+.card-content {
+  padding: 32px 16px;
+}
+
+.team-card img {
+  display: block;
+  width: 264px;
+}

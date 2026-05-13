@@ -1,0 +1,73 @@
+.main-logo {
+  font-family: Raleway, sans-serif;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.main-logo .accent {
+  color: #4d5ae5;
+}
+
+.header-nav li a {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-address li a {
+  color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-nav li a:hover,
+.header-nav li a:focus,
+.header-address li a:hover,
+.header-address li a:focus {
+  color: #404bbf;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.address-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 340px;
+}
+
+.header-nav li a,
+.header-address li a {
+  padding: 24px 0;
+}
