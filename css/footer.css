@@ -27,12 +27,17 @@
 .footer-container {
   display: flex;
   padding: 0px 15px;
-  gap: 120px;
-  margin-left: 141px;
+  align-items: baseline;
 }
 
 .footer-socials p {
+  color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 16px;
 }
 
 .footer-socials {
@@ -52,7 +57,6 @@
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  margin-top: 16px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -62,11 +66,10 @@
 }
 
 .footer-info {
-  display: flex;
-  flex-direction: column;
+  margin-right: 120px;
 }
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
